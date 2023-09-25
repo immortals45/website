@@ -1,0 +1,202 @@
+body {
+    width: 100vw;
+}
+
+#bannerImg1 {
+    display: block;
+}
+
+#bannerImg2 {
+    display: none;
+}
+
+.addToCartButtons {
+    background-color: #314965;
+    color: rgb(193, 229, 255);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.addToCartButtons:hover {
+    background-color: rgb(193, 229, 255);
+    color: #314965;
+}
+
+.card {
+    overflow: hidden;
+    background-color: transparent;
+    color: #ffffff;
+    height: 100%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+}
+
+.card:hover{
+    padding-bottom: 0%;
+}
+
+.card .card-img-top {
+    transition: transform 0.5s;
+    transform: translateY(0);
+}
+
+.card:hover .card-img-top {
+    transform: translateY(-35%);
+    padding-bottom: 0px;
+}
+
+.card .card-body {
+    transform: translateY(-35%);
+    display: none;
+}
+
+.card:hover .card-body {
+    display: block;
+}
+
+.checkout-items tr{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+@media (max-width: 768px) {
+
+    #bannerImg1 {
+        display: none;
+    }
+
+    #bannerImg2 {
+        display: block;
+    }
+}
+
+
+.aboutIeeeDayPara {
+    padding: 50px;
+}
+
+.sectionHeadingStyle {
+    font-size: x-large;
+    font-weight: 700;
+    color: #055fad;
+    font-family: 'Poppins', sans-serif;
+}
+
+.guidelines div {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#demovd {
+    height: 72vh;
+}
+
+@media (min-width: 769px) {
+    #demovd {
+        width: 72vw;
+    }
+}
+
+#ieeeDayEventRegistrationCal{
+    width: 70%;
+}
+
+.amountcontainer {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border: 0px;
+    width: 60%;
+}
+
+.show-button{
+    width: 30px;
+}
+
+/* .show-button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+} */
+
+@media screen and (max-width: 760px) {
+    .bannerDiv {
+        margin-top: 10vh;
+    }
+
+    .show-button{
+        width: 80px;
+    }
+    
+
+    #ieeeDayEventRegistrationCal{
+        width: 88%;
+    }
+
+    #demovd {
+        width: 80vw !important;
+        height: 30vh !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #ss_demo,
+    #popup_demo {
+        height: auto;
+        max-width: 80%;
+    }
+
+    .aboutIeeeDayPara {
+        padding: 10px;
+    }
+
+    .amountcontainer {
+        width: 90%;
+    }
+
+
+    .shop-item-button {
+        margin-top: 5px !important;
+        margin-bottom: 20px;
+    }
+
+    .box .inner {
+        height: 28vh;
+        line-height: 28vh;
+        font-size: 2em;
+    }
+}
+
+.mainnav .amountcontainer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 0;
+}
+
+#customers th {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.cardheader {
+    color: white;
+    background-color: transparent;
+}
+
+#customers tbody {
+    background-color: transparent;
+}
+
+#customers tbody {
+    color: white;
+}
+
+#customers tbody tr {
+    padding-top: 5px;
+    padding-bottom: 3px;
+}

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+.calenderDiv {
+    font-family: 'Merriweather';
+}
+
+.calenderWrapper {
+    height: 50%;
+    overflow: hidden;
+    background: radial-gradient(ellipse at bottom, #194F8F 0%, #090a0f 100%);
+    border-radius: 40px 0px 0px 0px;
+}
+
+.calenderTable {
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(193, 229, 255);
+    border-radius: 0px 0px 0px 40px;
+}
+
+.calenderTable td, th{
+    font-size: 22px;
+    border: 0.8px ridge;
+    border-collapse: collapse;
+}
+
+.calenderDatesDiv{
+    border-radius: 40px 0px 0px 40px;
+    
+}
+
+.calenderCardsDiv{
+    border-radius: 0px 40px 40px 0px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.vertical-middle {
+    padding: auto;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,600,700,800, 800i, 900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ieeeDayEventRegistrationCal{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    position: relative;
+}
+
+.date-button {
+    
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    transform-origin: center;
+    height: 50px;
+    width: 50px;
+}
+.date-button:hover {
+    transform: scale(1.15);
+    color:white;
+    background-color: #314965;
+    font-weight: 650;
+    /* Increase size on hover */
+}
+
+.date-button:active {
+    transform: scale(1.10);
+}
+
+.accordion-content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.panel-button {
+    width: 100%;
+    height: 10vh;
+    border: none;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 650;
+    background-color: rgb(193, 229, 255);
+}
+
+@media (max-width: 768px) {
+    .calenderTable thead {
+        display: none;
+    }
+    .calenderTable .redundant-dates{
+        display: none;
+    }
+
+    .calenderWrapper {
+        border-radius: 40px 40px 0px 0px;
+    }
+    
+    .calenderTable {
+        height: 50%;
+        width: 100%;
+        background-color: white;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+        background-color: rgb(193, 229, 255);
+        border-radius: 0px 0px 0px 0px;
+    }
+    
+    .calenderDatesDiv{
+        border-radius: 40px 40px 0px 0px;
+        
+    }
+    
+    .calenderCardsDiv{
+        border-radius: 0px 0px 40px 40px;
+    }
+
+}
